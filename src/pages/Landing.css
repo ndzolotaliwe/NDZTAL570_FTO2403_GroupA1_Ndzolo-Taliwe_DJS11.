@@ -1,0 +1,58 @@
+/* Landing.css */
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-image: url('/src/images/Podcast.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff; /* White text color for better contrast */
+    font-family: 'Arial', sans-serif; /* Set your preferred font */
+  }
+  
+  .landing-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add some text shadow for better readability */
+  }
+  
+  .landing-description {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.5; /* Increase line height for better readability */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Add some text shadow for better readability */
+  }
+  
+  .landing-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #ffdb58; /* A warm, inviting button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+  }
+  
+  .landing-button:hover {
+    background-color: #ffc107; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  .landing-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 203, 5, 0.5); /* Focus ring for accessibility */
+  }
+  
+  .landing-button:active {
+    background-color: #e0a800; /* Even darker shade when clicked */
+    transform: translateY(0); /* Button returns to original position */
+  }
+  

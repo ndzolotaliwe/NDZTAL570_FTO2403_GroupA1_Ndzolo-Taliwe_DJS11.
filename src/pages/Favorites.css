@@ -1,0 +1,10 @@
+.favorites-page {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .season-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

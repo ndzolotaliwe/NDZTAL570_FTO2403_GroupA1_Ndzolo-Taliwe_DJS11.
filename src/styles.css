@@ -1,0 +1,66 @@
+/* src/index.css */
+
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Page content styles */
+  div {
+    padding: 2rem;
+  }
+  
+  /* Specific page styles */
+  .home, .about, .favorites {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 1rem;
+  }
+  

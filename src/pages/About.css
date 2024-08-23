@@ -1,0 +1,29 @@
+.about-container {
+  background-image: url('/src/images/Podcast.png'); /* Path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+  min-height: 100vh; /* Ensure the container covers the full viewport height */
+  display: flex; /* Center the content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.about-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+  padding: 20px; /* Add some padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 800px; /* Limit the width of the content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visibility */
+}
+
+.about-text h1 {
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 15px; /* Space below the heading */
+}
+
+.about-text p {
+  font-size: 1.2em; /* Slightly larger font size for paragraphs */
+  line-height: 1.6; /* Increase line height for readability */
+  margin-bottom: 15px; /* Space below paragraphs */
+}
